@@ -1,4 +1,4 @@
-package com.matheus.usuario.infrastructure.business.dto;
+package com.matheus.usuario.business.dto;
 
 import lombok.*;
 

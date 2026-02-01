@@ -1,8 +1,8 @@
-package com.matheus.usuario.infrastructure.business.converter;
+package com.matheus.usuario.business.converter;
 
-import com.matheus.usuario.infrastructure.business.dto.EnderecoDTO;
-import com.matheus.usuario.infrastructure.business.dto.TelefoneDTO;
-import com.matheus.usuario.infrastructure.business.dto.UsuarioDTO;
+import com.matheus.usuario.business.dto.EnderecoDTO;
+import com.matheus.usuario.business.dto.TelefoneDTO;
+import com.matheus.usuario.business.dto.UsuarioDTO;
 import com.matheus.usuario.infrastructure.entity.Endereco;
 import com.matheus.usuario.infrastructure.entity.Telefone;
 import com.matheus.usuario.infrastructure.entity.Usuario;
