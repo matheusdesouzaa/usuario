@@ -111,6 +111,7 @@ public class UsuarioConverter {
                 .estado(dto.getEstado() != null ? dto.getEstado() : entity.getEstado())
                 .complemento(dto.getComplemento() != null ? dto.getComplemento() : entity.getComplemento())
                 .cidade(dto.getCidade() != null ? dto.getCidade() : entity.getCidade())
+                .usuario_id(entity.getUsuario_id())
                 .build();
     }
 
@@ -119,6 +120,7 @@ public class UsuarioConverter {
                 .id(entity.getId())
                 .ddd(dto.getDdd() != null ? dto.getDdd() : entity.getDdd())
                 .numero(dto.getNumero() != null ? dto.getNumero() : entity.getNumero())
+                .usuario_id(entity.getUsuario_id())
                 .build();
     }
 
