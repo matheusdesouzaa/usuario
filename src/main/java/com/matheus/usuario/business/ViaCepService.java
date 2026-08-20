@@ -11,7 +11,7 @@ import java.util.Objects;
 @RequiredArgsConstructor
 public class ViaCepService {
 
-    private ViaCepClient viaCepClient;
+    private final ViaCepClient viaCepClient;
 
     public ViaCepDTO buscarDadosEndereco(String cep){
         return viaCepClient.buscaDadosEndereco(processarCep(cep));
